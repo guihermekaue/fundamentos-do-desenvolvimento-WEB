@@ -1,0 +1,41 @@
+.fundo{
+    background-color: black;
+    /* Cor de fundo */
+}
+h1{
+    color:green;
+    text-align: center;
+}
+td{
+    color:dodgerblue;
+    text-align: justify;
+}
+th{
+    color: gray;
+    text-align: justify;
+}
+caption{
+    color: antiquewhite;
+}
+p{
+    color: goldenrod;
+    text-align: justify;
+}
+h2{
+    color: blueviolet;
+}
+li{
+    color:brown;
+}
+b{
+    color: darkcyan;
+}
+dt{
+    color: orangered;
+    text-align: justify;
+}
+dd{
+    color: goldenrod;
+    text-align: justify;
+
+}

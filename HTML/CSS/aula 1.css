@@ -1,0 +1,91 @@
+h2{
+    color: green;
+}
+h1{
+    color: brown;
+    font-size:12px;
+    text-align: center;
+}
+ .corLilas{
+    color: purple;
+}
+#corOrange{
+    color: orange;
+}
+
+*{
+    color: orange;
+}
+
+.font{
+    color: black;
+    /*colore o texto */
+    font-size: 40px;
+    /* Muda o tamanho do texto */
+    font-family: sans-serif;
+    /* Muda a fonte do texto */
+    font-weight: 900;
+    /* Negrito, controlar o nível */
+    text-align: center;
+    /* Alinha o texto */
+    text-decoration: underline;
+    /* Sublinha o texto */
+}
+.box{
+    width: 100px;
+    /* largura */
+    height: 100px;
+    /* Altura */
+    margin: 8px 5px 15px 4px;
+    /* Margens */
+    padding: 4px 15px 5px 8px ;
+    /* Margem interna */
+    border: black 1px solid;
+    
+}
+
+.center{
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15
+    px;
+
+}
+.position{
+    position: absolute;
+    /* Posiciona de forma absoluta um elemento */
+    right: 100px;
+    /* Distância */
+}
+
+.fundo{
+    background-color: beige;
+    /* Cor de fundo */
+}
+.fundoImagem{
+    /* Adicione a imagem de fundo */
+    background-image: url(https://upload.wikimedia.org/wikipedia/pt/3/36/Scooby-Doo.jpg);
+    /* Diz que a imagem não vai repetir */
+    background-repeat: no-repeat;
+    /* Define o tamanho da imagem */
+    background-size: 100vw;
+    /* Define a posição da imagem */
+    background-position: center ;
+}
+
+.radius{
+    border-radius: 100px;
+}
+
+.sombra{
+    /* Horizontal, vertical, borrado, tamanho, cor */
+    box-shadow: 5px 5px 20px 2px black;
+}
+
+.scroll{
+    overflow: auto;
+    overflow-y: auto; /*vertical*/
+    overflow-x: scroll; /*Horizontal*/
+}
