@@ -1,0 +1,111 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Títulos */
+  h1 {
+    color: purple;
+    font-size: 42px;
+  }
+  
+  /* Navegação */
+  .container-topo {
+    text-align: end;
+    padding: 10px 20px;
+    background-color: #eee;
+  }
+  
+  /* Linha horizontal */
+  .hr {
+    border: 1px solid black;
+    width: 25%;
+  }
+  
+  /* Área principal da página */
+  .pagina-central {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Texto ajustado e estilizado */
+  .textoajustado {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: justify;
+    color: #131212;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 0 15px 21px rgba(0, 0, 0, 0.1); /* sombra suave */
+    overflow: hidden;
+  }
+  
+  
+  /* Botão "Saiba Mais" */
+  .botao {
+    width: 140px;
+    height: 84px;
+    background-color: plum;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-size: 21px;
+  }
+  
+  /* Agrupamento texto + imagem */
+  .conteudo-com-imagem {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  /* Imagem ao lado do texto */
+  .conteudo-com-imagem img {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Texto ao lado da imagem */
+  .textos {
+    flex: 1;
+    text-align: justify;
+  }
+  
+  /* Container de conteúdo com imagem */
+.container{
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    color: wheat;
+    justify-content: right;
+  }
+  
+  .texto {
+    flex: 2;
+    padding: 20px;
+    text-align: justify;
+  }
+
+.alinhar{
+    text-align: right;
+}
+.navbar {
+    background-color: #3f3d56;
+    padding: 20px 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
